@@ -25,7 +25,7 @@ class D extends C {
         System.out.println("Show3 Method");
     }
 }
-class Hybrid extends C {
+public class Hybrid extends C {
     void Show4()
     {
         System.out.println("Show4 Method");
