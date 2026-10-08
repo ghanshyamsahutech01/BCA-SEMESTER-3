@@ -15,7 +15,7 @@ public class FrSubMrksTotPre extends Frame implements ActionListener {
         t4 = new TextField(20);
         
         l1 = new Label("Marks: ---");
-        l2 = new Label("Precentage: ---");
+        l2 = new Label("Percentage: ---");
                 
         b1 = new Button("Ok");
         b2 = new Button("Reset");
@@ -43,7 +43,7 @@ public class FrSubMrksTotPre extends Frame implements ActionListener {
             int n5 = n1+n2+n3+n4;
             float n6 = n5/4.0f;
             l1.setText("Marks: " + n5);
-            l2.setText("Precentage: " + n6 + "%");
+            l2.setText("Percentage: " + n6 + "%");
         }
         else if(e.getSource()==b2){
             t1.setText("");
@@ -51,7 +51,7 @@ public class FrSubMrksTotPre extends Frame implements ActionListener {
             t3.setText("");
             t4.setText("");
             l1.setText("Marks: ---");
-            l2.setText("Precentage: ---");
+            l2.setText("Percentage: ---");
         }
     }
     public static void main(String[] args) {
