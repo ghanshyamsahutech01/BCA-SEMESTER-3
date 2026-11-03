@@ -1,0 +1,2 @@
+I Added Ssh key
+Test 1: My first test on without set remote url as git@github.com
